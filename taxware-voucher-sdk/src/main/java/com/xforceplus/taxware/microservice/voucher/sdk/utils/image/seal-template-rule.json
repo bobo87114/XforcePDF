@@ -1,0 +1,46 @@
+[
+  {"version":1
+  ,"name":"电子合同章"
+  ,"default":true
+  ,"width":200,"height":200,"color":"#E60000"
+  ,"attachedObjects":
+  [{"attachedType":"Circle","border":4,"offset":1}
+  ,{"attachedType":"Pentagram","pentagramRadius":35}
+  ,{"attachedType":"Text","textStyle":"ClockwiseFan","fanRadius":70,"objectClass":"String","objectName":"topName","fontFamily":"宋体","fontSize":27,"fontWeight":"bold","xscale":0.8,"yscale":1
+  ,"fanAngle":0,"fanAngleFunc":{"language":"js","script":"var len='${orgName}'.length;if(len<=12){180;}else if(len==13){195;}else if(len==14){210;}else if(len==15){225;}else{240;}"}}
+  ,{"attachedType":"Text","textStyle":"HorizontalCentered","textY":168,"objectClass":"String","objectName":"centerName","fontFamily":"宋体","fontSize":26,"fontWeight":"bold","xscale":0.8,"yscale":1}
+  ]}
+,
+  {"version":1
+  ,"name":"人名章"
+  ,"default":true
+  ,"width":100,"height":100,"color":"#E60000"
+  ,"attachedObjects":
+  [{"attachedType":"Text","textStyle":"SquareCentered","wordSpacing":-4,"objectName":"personalName","objectClass":"String","xscale":1,"yscale":1,"fontFamily":"华文楷体","fontSize":41,"fontWeight":"bold"}
+  ,{"attachedType":"RoundRect","border":4,"offset":1,"arcWidth":13,"arcHeight":13}
+  ]}
+,
+  {"version":1
+  ,"name":"法人章"
+  ,"default":false
+  ,"width":0,"height":0,"color":"#E60000"
+  ,"attachedObjects":
+  [{"attachedType":"Text","textStyle":"HorizontalCentered","wordSpacing":-4,"objectName":"legalPersonName","objectClass":"String","xscale":1,"yscale":1,"fontFamily":"华文楷体","fontSize":41,"fontWeight":"bold"}
+  ,{"attachedType":"RoundRect","border":4,"offset":1,"arcWidth":13,"arcHeight":13}
+  ]}
+,
+  {"version":1
+  ,"name":"财务专用章"
+  ,"default":false
+  ,"circleBorder":8
+  ,"offset":4
+  ,"radiusX":200,"radiusY":150,"color":"#E60000"
+  ,"attachedObjects":
+  [{"attachedType":"TopText","totalArcAng":220,"objectName":"orgName","fontFamily":"宋体","fontSize":30,"fontWeight":"bold","xscaleOfTextTop":0.85,"yscaleOfTextTop":1}
+  ,{"attachedType":"TextBottom","fontFamily":"Microsoft YaHei UI","fontSize":16,"fontWeight":"plain","angleOfFanBottom":90,"xscaleOfTextBottom":0.85,"yscaleOfTextBottom":1}
+  ,{"attachedType":"HorizontalText","fontFamily":"宋体","fontSize":40,"fontWeight":"bold","xscaleOfHorizontalText":0.8,"yscaleOfHorizontalText":1}
+  ,{"attachedType":"TaxText","fontFamily":"Microsoft YaHei UI","fontSize":28,"fontWeight":"plain"}
+  ,{"attachedType":"DateText","fontFamily":"华文楷体","fontSize":40,"fontWeight":"bold","xscaleOfSigningTime":1,"yscaleOfSigningTime":1}
+  ]}
+
+]
